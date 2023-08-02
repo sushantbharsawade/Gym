@@ -1,0 +1,270 @@
+#logo{
+    width:80px;
+    margin: 30px 0 0 40px;
+}
+body{
+    height: 900px;
+    font-family: sans-serif;
+}
+
+header{
+    height: 400px;
+    width: 100%;
+    background-image:url(bgimage.jpeg);
+}
+body{
+    background-color: black;
+}
+
+#services{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.links{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.btn1{
+    border-radius: 20px 0 0 0;
+    background-color: rgb(175, 252, 60);
+    color: black;
+    padding: 12px;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+.heading{
+    color: white;
+    margin: 40px 0 0 40px;
+    font-size:60px;
+}
+.notes{
+    color: white;
+    font-weight: 100;
+    margin: 30px 0 0 40px;
+}
+
+.left{
+    display: flex;
+    margin-top: 50px;
+}
+
+.mnt{
+    color: greenyellow;
+    background-color: rgb(67, 104, 11);
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 90px;
+    justify-content: space-between;
+
+    
+}
+#jfree{
+    color: white;
+    display: flex;
+    margin-left: 60px;
+    background-color: black;
+    align-items: center;
+    border: none;
+    height: 40px;
+}
+.member{
+  text-align: end;
+  margin-right: 130px;
+  padding-bottom: 90px;
+}
+#number{
+    color: white;
+    font-weight: bolder;
+    font-size: 220%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#nt{
+    color: white;
+    font-size:14px;
+}
+.description{
+    display: flex;
+    text-align: center;
+}
+.journey{
+    color: white;
+    margin: 120px 0 0 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#text{
+    color: white;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: medium;
+    text-align: start;
+    margin-right: 150px;
+
+}
+#fit{
+    justify-content: space-between;
+    margin-right: 40px;
+    font-size: 30px;
+}
+.tempcontent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+#btnjoin{
+    margin-right: 60px;
+}
+#btn49{
+    background-color: rgb(67, 104, 11);
+    border-radius: 0;
+}
+.rightcontainer{
+    margin-right: 130px;
+    align-items: center;
+}
+.rectangle{
+    display: flex;
+    position: relative;
+    height: 25px;
+}
+.circle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: black solid 1px;
+    overflow: hidden;
+}
+.circle5{
+    right: 0px;
+}
+.circle4{
+    right: 15px;
+}
+.circle3{
+    right: 30px;
+}
+.circle2{
+    right: 45px;
+}
+.circle1{
+    right: 60px;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .section3{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+
+  .leftbottomsection{
+    display: flex;
+    justify-content: space-between;
+  }
+  .a{
+    font-size: 30px;
+  }
+  .b{
+    max-width: 300px;
+  }
+
+  .puma{
+    object-fit: contain; 
+    background-image: url(/kohli.jpeg);
+    width:33%;  
+    
+
+  }
+
+
+  .nameplate{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .leftsection3{
+        width: 50%;
+  }
+  .puma h1{
+    display: block;
+    transform: rotate(-90deg);
+    margin-top: 463px;
+  }
+
+  .section4{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color:white;
+  }
+
+.section4l{
+    max-width: 50%;
+}
+.section4lu{
+    max-width: 600px;
+    overflow: hidden;
+}
+.section4ld{
+    margin-top: 60px;
+    /* background-color: grey; */
+    background-image: url(gymfit.jpeg);
+    width: 100%;
+    height: 300px;
+    width: 600px;
+    overflow: hidden;
+}
+.section4 #logo{
+    position: absolute;
+    /* right: 40px; */
+    left: 55%;
+    width: 150px;
+}
+.section4lu p{
+    max-width: 280px;
+}
+
+.sectinon4r{
+    display: flex;
+}
+.sectinon4ru{
+    width: 100%;
+    height: 90%;
+    background-image:url(fitphoto.jpeg) ;
+}
+.sectinon4rd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 40px;
+    text-align: center;
+}
+footer p{
+    color: white;
+    text-decoration: underline;
+}
